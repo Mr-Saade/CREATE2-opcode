@@ -1,4 +1,4 @@
-/*const { assert } = require("chai");
+const { assert } = require("chai");
 const { ethers } = require("hardhat");
 const { keccak256 } = require("@ethersproject/keccak256");
 
@@ -24,4 +24,4 @@ describe("GreeterFacotry", function () {
     console.log(`Precomputed Address: ${preComputedAddress}`);
     assert(preComputedAddress.toString(), deployedAddress.toString());
   });
-}); */
+});

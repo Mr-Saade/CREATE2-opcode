@@ -1,4 +1,4 @@
-/*const { assert, expect } = require("chai");
+const { assert, expect } = require("chai");
 const { ethers } = require("hardhat");
 const { keccak256 } = require("@ethersproject/keccak256");
 const { bytecode } = require("../artifacts/contracts/Storage.sol/Storage.json");
@@ -35,4 +35,4 @@ describe("DeployerFactory", function () {
     const deployedAddress = txReceipt.logs[0].args[0];
     expect(deployedAddress).to.equal(preComputedAddress);
   });
-}); */
+});
