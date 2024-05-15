@@ -20,26 +20,26 @@ Be sure to have installed the following
 
 1. Clone the repo
 
-```
+```bash
 git clone https://github.com/Mr-Saade/CREATE2-opcode.git
 cd CREATE2-opcode
 ```
 
 2. Install packages
 
-```
+```bash
 yarn install
 ```
 
 3. Compile contracts
 
-```
+```bash
 yarn compile
 ```
 
 4. Run tests
 
-```
+```bash
 yarn test
 ```
 
